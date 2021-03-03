@@ -54,7 +54,6 @@ class GrassEater extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
         this.energy = 30;
-        super.chooseCell(char);
     }
     mul() {
         let newCell = random(this.chooseCell(0));
