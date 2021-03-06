@@ -109,28 +109,29 @@ function matrixGenerator(matrixSize, grassCount, grassEaterCount, predatorCount,
 		}
 	}
 	for (let index = 0; index < grassCount; index++) {
-		let x = Math.floor(random(0, matrixSize));
-		let y = Math.floor(random(0, matrixSize));
+		let x = getRandomInt(0, matrixSize);
+		let y = getRandomInt(0, matrixSize);
 		matrix[y][x] = 1;
 	}
 	for (let index = 0; index < grassEaterCount; index++) {
-		let x = Math.floor(random(0, matrixSize));
-		let y = Math.floor(random(0, matrixSize));
+		let x = getRandomInt(0, matrixSize);
+		let y = getRandomInt(0, matrixSize);
 		matrix[y][x] = 2;
 	}
 	for (let index = 0; index < predatorCount; index++) {
-		let x = Math.floor(random(0, matrixSize));
-		let y = Math.floor(random(0, matrixSize));
+		let x = getRandomInt(0, matrixSize);
+		let y = getRandomInt(0, matrixSize);
 		matrix[y][x] = 3;
 	}
 	for (let index = 0; index < predEaterCount; index++) {
-		let x = Math.floor(random(0, matrixSize));
-		let y = Math.floor(random(0, matrixSize));
+		let x = getRandomInt(0, matrixSize);
+		let y = getRandomInt(0, matrixSize);
 		matrix[y][x] = 4;
 	}
 	for (let index = 0; index < godCount; index++) {
-		let x = Math.floor(random(0, matrixSize));
-		let y = Math.floor(random(0, matrixSize));
+		let x = getRandomInt(0, matrixSize);
+		let y = getRandomInt(0, matrixSize);
 		matrix[y][x] = 5;
 	}
 }
+

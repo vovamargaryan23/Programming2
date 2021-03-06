@@ -210,8 +210,8 @@ class PredEater extends LivingCreature {
             [this.x - 1, this.y + 1],
             [this.x, this.y + 1],
             [this.x + 1, this.y + 1],
-            [this.x + 2, this, y + 2],
-            [this.x + 3, this, y + 3],
+            [this.x + 2, this.y + 2],
+            [this.x + 3, this.y + 3],
             [this.x + 4, this.y + 4]
         ];
     }
