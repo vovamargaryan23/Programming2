@@ -3,16 +3,21 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var fs = require('fs');
+var Grass = require("./classes/Grass");
+var GrassEater = require("./classes/GrassEater");
+var Predator = require("./classes/Predator");
+var PredEater = require("./classes/PredEater");
+var God = require("./classes/God");
 
 let weather = 'winter';
 var stats = [];
-let matrix = [];
-let side = 10;
-let grassArr = [];
-let grassEaterArr = [];
-let predatorArr = [];
-let predEaterArr = [];
-let godArr = [];
+
+matrix = [];
+grassArr = [];
+grassEaterArr = [];
+predatorArr = [];
+predEaterArr = [];
+godArr = [];
 
 app.use(express.static("."));
 
@@ -45,10 +50,34 @@ getRandomArrayElement = function (arr) {
 
 function start() {
 	matrixGenerator(70, 1000, 700, 1000, 1200, 100);
+	for (let y = 0; y < matrix.length; y++) {
+		for (let x = 0; x < matrix[y].length; x++) {
+			if (matrix[y][x] == 1) {
+				let grass = new Grass(x, y);
+				grassArr.push(grass);
+			}
+			else if (matrix[y][x] == 2) {
+				let grassEater = new GrassEater(x, y);
+				grassEaterArr.push(grassEater);
+			}
+			else if (matrix[y][x] == 3) {
+				let predator = new Predator(x, y);
+				predatorArr.push(predator);
+			}
+			else if (matrix[y][x] == 4) {
+				let predeater = new PredEater(x, y);
+				predEaterArr.push(predeater);
+			}
+			else if (matrix[y][x] == 5) {
+				let god = new God(x, y);
+				godArr.push(god);
+			}
+		}
+	}
 }
 
 function game() {
-	draw();
+	update();
 	var data = {
 		'matrix': matrix,
 		'weater': weather
@@ -58,7 +87,7 @@ function game() {
 	saveStats();
 }
 
-function draw() {
+function update() {
 	for (let index = 0; index < grassArr.length; index++) {
 		grassArr[index].mul();
 	}
@@ -126,4 +155,4 @@ function saveStats() {
 
 start();
 
-setInterval(game, 1000);
+setInterval(game, 100);

@@ -1,11 +1,11 @@
-LivingCreature = require("./LivingCreature");
-class PredEater extends LivingCreature {
+var LivingCreature = require("./LivingCreature");
+module.exports = class PredEater extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
         this.energy = 95;
     }
     mul() {
-        let newCell = random(this.chooseCell(0));
+        let newCell = getRandomArrayElement(this.chooseCell(0));
         if (newCell) {
             let x = newCell[0];
             let y = newCell[1];
@@ -33,14 +33,14 @@ class PredEater extends LivingCreature {
             [this.x - 1, this.y + 1],
             [this.x, this.y + 1],
             [this.x + 1, this.y + 1],
-            [this.x + 2, this, y + 2],
-            [this.x + 3, this, y + 3],
+            [this.x + 2, this.y + 2],
+            [this.x + 3, this.y + 3],
             [this.x + 4, this.y + 4]
         ];
     }
     eat() {
         this.getNewDirections();
-        let newCell = random(this.chooseCell(3).concat(this.chooseCell(2)));
+        let newCell = getRandomArrayElement(this.chooseCell(3).concat(this.chooseCell(2)));
         if (newCell) {
             this.energy += 40;
             let x = newCell[0];
@@ -65,7 +65,7 @@ class PredEater extends LivingCreature {
     }
     move() {
         this.energy--;
-        let newCell = random(this.chooseCell(0).concat(this.chooseCell(1)));
+        let newCell = getRandomArrayElement(this.chooseCell(0).concat(this.chooseCell(1)));
         if (newCell) {
             let x = newCell[0];
             let y = newCell[1];

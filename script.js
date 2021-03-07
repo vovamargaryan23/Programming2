@@ -118,15 +118,16 @@
 //         godArr[index].eat();
 //     }
 // }
-var sideLength = 30;
+var side = 30;
 var numberOfSides = 20;
+var matrix = [];
 
 var socket = io();
 
 socket.on('matrixUpdate', drawMatrix);
 
-function start() {
-    createCanvas(numberOfSides * sideLength, numberOfSides * sideLength);
+function setup() {
+    createCanvas(numberOfSides * side, numberOfSides * side);
     background('grey');
     frameRate(8);
     noStroke();
@@ -160,12 +161,10 @@ function draw() {
     }
 }
 
-
 function drawMatrix(data) {
-    var matrix = data.matrix;
-    console.log(matrix);
+    matrix = data.matrix;
 
 }
 function someEvent() {
-    socket.emit('someEvent');
+
 }
