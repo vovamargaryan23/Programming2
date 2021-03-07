@@ -1,415 +1,1262 @@
 [
     {
-        "grassCount": 293,
-        "grassEaterCount": 124,
-        "predatorCount": 44,
-        "predEaterCount": 1211,
-        "GodCount": 1022
+        "grassCount": 305,
+        "grassEaterCount": 100,
+        "predatorCount": 94,
+        "predEaterCount": 1267,
+        "GodCount": 909
     },
     {
-        "grassCount": 276,
-        "grassEaterCount": 120,
-        "predatorCount": 16,
-        "predEaterCount": 564,
-        "GodCount": 727
+        "grassCount": 289,
+        "grassEaterCount": 94,
+        "predatorCount": 28,
+        "predEaterCount": 657,
+        "GodCount": 664
     },
     {
-        "grassCount": 269,
-        "grassEaterCount": 120,
-        "predatorCount": 11,
-        "predEaterCount": 307,
-        "GodCount": 570
+        "grassCount": 285,
+        "grassEaterCount": 94,
+        "predatorCount": 19,
+        "predEaterCount": 389,
+        "GodCount": 523
     },
     {
-        "grassCount": 512,
-        "grassEaterCount": 120,
-        "predatorCount": 11,
-        "predEaterCount": 198,
+        "grassCount": 541,
+        "grassEaterCount": 94,
+        "predatorCount": 15,
+        "predEaterCount": 257,
+        "GodCount": 483
+    },
+    {
+        "grassCount": 520,
+        "grassEaterCount": 92,
+        "predatorCount": 15,
+        "predEaterCount": 177,
+        "GodCount": 518
+    },
+    {
+        "grassCount": 505,
+        "grassEaterCount": 92,
+        "predatorCount": 8,
+        "predEaterCount": 128,
+        "GodCount": 528
+    },
+    {
+        "grassCount": 714,
+        "grassEaterCount": 93,
+        "predatorCount": 8,
+        "predEaterCount": 106,
+        "GodCount": 510
+    },
+    {
+        "grassCount": 933,
+        "grassEaterCount": 95,
+        "predatorCount": 8,
+        "predEaterCount": 81,
+        "GodCount": 517
+    },
+    {
+        "grassCount": 901,
+        "grassEaterCount": 95,
+        "predatorCount": 7,
+        "predEaterCount": 68,
+        "GodCount": 512
+    },
+    {
+        "grassCount": 1069,
+        "grassEaterCount": 93,
+        "predatorCount": 7,
+        "predEaterCount": 61,
+        "GodCount": 511
+    },
+    {
+        "grassCount": 1437,
+        "grassEaterCount": 92,
+        "predatorCount": 7,
+        "predEaterCount": 52,
+        "GodCount": 518
+    },
+    {
+        "grassCount": 1615,
+        "grassEaterCount": 94,
+        "predatorCount": 6,
+        "predEaterCount": 46,
         "GodCount": 513
     },
     {
-        "grassCount": 493,
-        "grassEaterCount": 120,
-        "predatorCount": 11,
-        "predEaterCount": 121,
-        "GodCount": 529
-    },
-    {
-        "grassCount": 478,
-        "grassEaterCount": 120,
-        "predatorCount": 10,
-        "predEaterCount": 91,
-        "GodCount": 539
-    },
-    {
-        "grassCount": 673,
-        "grassEaterCount": 120,
-        "predatorCount": 10,
-        "predEaterCount": 57,
-        "GodCount": 544
-    },
-    {
-        "grassCount": 878,
-        "grassEaterCount": 120,
-        "predatorCount": 10,
-        "predEaterCount": 43,
-        "GodCount": 528
-    },
-    {
-        "grassCount": 836,
-        "grassEaterCount": 120,
-        "predatorCount": 11,
-        "predEaterCount": 32,
-        "GodCount": 531
-    },
-    {
-        "grassCount": 983,
-        "grassEaterCount": 120,
-        "predatorCount": 10,
-        "predEaterCount": 24,
-        "GodCount": 526
-    },
-    {
-        "grassCount": 1321,
-        "grassEaterCount": 119,
-        "predatorCount": 10,
-        "predEaterCount": 20,
-        "GodCount": 527
-    },
-    {
-        "grassCount": 1494,
-        "grassEaterCount": 118,
-        "predatorCount": 9,
-        "predEaterCount": 20,
-        "GodCount": 527
-    },
-    {
-        "grassCount": 1593,
-        "grassEaterCount": 121,
-        "predatorCount": 10,
-        "predEaterCount": 19,
-        "GodCount": 528
-    },
-    {
-        "grassCount": 1965,
-        "grassEaterCount": 129,
-        "predatorCount": 9,
-        "predEaterCount": 19,
-        "GodCount": 526
-    },
-    {
-        "grassCount": 2296,
-        "grassEaterCount": 136,
-        "predatorCount": 9,
-        "predEaterCount": 19,
-        "GodCount": 529
-    },
-    {
-        "grassCount": 2478,
-        "grassEaterCount": 149,
-        "predatorCount": 9,
-        "predEaterCount": 16,
-        "GodCount": 526
-    },
-    {
-        "grassCount": 2818,
-        "grassEaterCount": 150,
-        "predatorCount": 9,
-        "predEaterCount": 19,
-        "GodCount": 526
-    },
-    {
-        "grassCount": 3244,
-        "grassEaterCount": 152,
-        "predatorCount": 9,
-        "predEaterCount": 20,
-        "GodCount": 526
-    },
-    {
-        "grassCount": 3532,
-        "grassEaterCount": 154,
-        "predatorCount": 10,
-        "predEaterCount": 18,
-        "GodCount": 537
-    },
-    {
-        "grassCount": 3878,
-        "grassEaterCount": 160,
-        "predatorCount": 10,
-        "predEaterCount": 22,
-        "GodCount": 532
-    },
-    {
-        "grassCount": 4274,
-        "grassEaterCount": 170,
-        "predatorCount": 8,
-        "predEaterCount": 22,
-        "GodCount": 531
-    },
-    {
-        "grassCount": 4557,
-        "grassEaterCount": 186,
-        "predatorCount": 8,
-        "predEaterCount": 16,
-        "GodCount": 535
-    },
-    {
-        "grassCount": 4850,
-        "grassEaterCount": 197,
-        "predatorCount": 8,
-        "predEaterCount": 19,
-        "GodCount": 532
-    },
-    {
-        "grassCount": 5124,
-        "grassEaterCount": 200,
-        "predatorCount": 8,
-        "predEaterCount": 19,
-        "GodCount": 537
-    },
-    {
-        "grassCount": 5392,
-        "grassEaterCount": 206,
-        "predatorCount": 8,
-        "predEaterCount": 16,
-        "GodCount": 535
-    },
-    {
-        "grassCount": 5677,
-        "grassEaterCount": 213,
-        "predatorCount": 10,
-        "predEaterCount": 25,
-        "GodCount": 533
-    },
-    {
-        "grassCount": 5908,
-        "grassEaterCount": 223,
-        "predatorCount": 10,
-        "predEaterCount": 32,
-        "GodCount": 535
-    },
-    {
-        "grassCount": 6122,
-        "grassEaterCount": 240,
-        "predatorCount": 9,
-        "predEaterCount": 32,
-        "GodCount": 536
-    },
-    {
-        "grassCount": 6339,
-        "grassEaterCount": 256,
-        "predatorCount": 9,
-        "predEaterCount": 34,
-        "GodCount": 536
-    },
-    {
-        "grassCount": 6548,
-        "grassEaterCount": 266,
-        "predatorCount": 10,
-        "predEaterCount": 36,
-        "GodCount": 537
-    },
-    {
-        "grassCount": 6746,
-        "grassEaterCount": 271,
-        "predatorCount": 9,
-        "predEaterCount": 45,
-        "GodCount": 536
-    },
-    {
-        "grassCount": 6898,
-        "grassEaterCount": 280,
-        "predatorCount": 9,
-        "predEaterCount": 48,
-        "GodCount": 545
-    },
-    {
-        "grassCount": 7044,
-        "grassEaterCount": 293,
-        "predatorCount": 9,
-        "predEaterCount": 53,
-        "GodCount": 542
-    },
-    {
-        "grassCount": 7135,
-        "grassEaterCount": 313,
-        "predatorCount": 9,
-        "predEaterCount": 61,
-        "GodCount": 544
-    },
-    {
-        "grassCount": 7187,
-        "grassEaterCount": 342,
-        "predatorCount": 9,
-        "predEaterCount": 64,
-        "GodCount": 549
-    },
-    {
-        "grassCount": 7220,
-        "grassEaterCount": 364,
-        "predatorCount": 9,
-        "predEaterCount": 58,
-        "GodCount": 564
-    },
-    {
-        "grassCount": 7246,
-        "grassEaterCount": 379,
-        "predatorCount": 10,
-        "predEaterCount": 66,
-        "GodCount": 566
-    },
-    {
-        "grassCount": 7208,
-        "grassEaterCount": 396,
-        "predatorCount": 9,
-        "predEaterCount": 69,
-        "GodCount": 497
-    },
-    {
-        "grassCount": 7166,
-        "grassEaterCount": 415,
-        "predatorCount": 9,
-        "predEaterCount": 64,
-        "GodCount": 448
-    },
-    {
-        "grassCount": 7060,
-        "grassEaterCount": 442,
-        "predatorCount": 9,
-        "predEaterCount": 70,
-        "GodCount": 418
-    },
-    {
-        "grassCount": 6979,
-        "grassEaterCount": 472,
-        "predatorCount": 9,
-        "predEaterCount": 67,
-        "GodCount": 399
-    },
-    {
-        "grassCount": 6775,
-        "grassEaterCount": 492,
-        "predatorCount": 9,
-        "predEaterCount": 73,
-        "GodCount": 396
-    },
-    {
-        "grassCount": 6592,
-        "grassEaterCount": 521,
-        "predatorCount": 9,
-        "predEaterCount": 90,
-        "GodCount": 398
-    },
-    {
-        "grassCount": 6351,
-        "grassEaterCount": 543,
-        "predatorCount": 9,
-        "predEaterCount": 88,
-        "GodCount": 404
-    },
-    {
-        "grassCount": 6082,
-        "grassEaterCount": 566,
-        "predatorCount": 9,
-        "predEaterCount": 83,
-        "GodCount": 414
-    },
-    {
-        "grassCount": 5826,
-        "grassEaterCount": 600,
-        "predatorCount": 12,
-        "predEaterCount": 92,
-        "GodCount": 424
-    },
-    {
-        "grassCount": 5527,
-        "grassEaterCount": 620,
-        "predatorCount": 11,
-        "predEaterCount": 91,
-        "GodCount": 436
-    },
-    {
-        "grassCount": 5258,
-        "grassEaterCount": 632,
-        "predatorCount": 15,
-        "predEaterCount": 81,
-        "GodCount": 439
-    },
-    {
-        "grassCount": 5024,
-        "grassEaterCount": 654,
-        "predatorCount": 19,
-        "predEaterCount": 87,
-        "GodCount": 453
-    },
-    {
-        "grassCount": 4786,
-        "grassEaterCount": 673,
-        "predatorCount": 18,
-        "predEaterCount": 96,
-        "GodCount": 447
-    },
-    {
-        "grassCount": 4497,
-        "grassEaterCount": 694,
-        "predatorCount": 17,
-        "predEaterCount": 86,
-        "GodCount": 476
-    },
-    {
-        "grassCount": 4290,
-        "grassEaterCount": 710,
-        "predatorCount": 14,
-        "predEaterCount": 82,
-        "GodCount": 478
-    },
-    {
-        "grassCount": 4030,
-        "grassEaterCount": 730,
-        "predatorCount": 17,
-        "predEaterCount": 79,
-        "GodCount": 489
-    },
-    {
-        "grassCount": 3764,
-        "grassEaterCount": 734,
-        "predatorCount": 18,
-        "predEaterCount": 88,
-        "GodCount": 496
-    },
-    {
-        "grassCount": 3530,
-        "grassEaterCount": 738,
-        "predatorCount": 17,
-        "predEaterCount": 93,
-        "GodCount": 506
-    },
-    {
-        "grassCount": 3318,
-        "grassEaterCount": 758,
-        "predatorCount": 15,
-        "predEaterCount": 103,
+        "grassCount": 1736,
+        "grassEaterCount": 102,
+        "predatorCount": 7,
+        "predEaterCount": 47,
         "GodCount": 509
     },
     {
-        "grassCount": 3103,
-        "grassEaterCount": 778,
-        "predatorCount": 14,
-        "predEaterCount": 118,
-        "GodCount": 527
+        "grassCount": 2132,
+        "grassEaterCount": 108,
+        "predatorCount": 6,
+        "predEaterCount": 43,
+        "GodCount": 514
     },
     {
-        "grassCount": 2894,
-        "grassEaterCount": 783,
-        "predatorCount": 16,
-        "predEaterCount": 126,
-        "GodCount": 528
+        "grassCount": 2470,
+        "grassEaterCount": 119,
+        "predatorCount": 6,
+        "predEaterCount": 36,
+        "GodCount": 514
     },
     {
         "grassCount": 2665,
-        "grassEaterCount": 794,
-        "predatorCount": 17,
-        "predEaterCount": 143,
-        "GodCount": 555
+        "grassEaterCount": 128,
+        "predatorCount": 6,
+        "predEaterCount": 36,
+        "GodCount": 525
+    },
+    {
+        "grassCount": 3010,
+        "grassEaterCount": 125,
+        "predatorCount": 6,
+        "predEaterCount": 34,
+        "GodCount": 513
+    },
+    {
+        "grassCount": 3419,
+        "grassEaterCount": 129,
+        "predatorCount": 6,
+        "predEaterCount": 35,
+        "GodCount": 515
+    },
+    {
+        "grassCount": 3692,
+        "grassEaterCount": 143,
+        "predatorCount": 6,
+        "predEaterCount": 32,
+        "GodCount": 519
+    },
+    {
+        "grassCount": 4034,
+        "grassEaterCount": 148,
+        "predatorCount": 6,
+        "predEaterCount": 37,
+        "GodCount": 514
+    },
+    {
+        "grassCount": 4407,
+        "grassEaterCount": 162,
+        "predatorCount": 6,
+        "predEaterCount": 36,
+        "GodCount": 517
+    },
+    {
+        "grassCount": 4729,
+        "grassEaterCount": 172,
+        "predatorCount": 6,
+        "predEaterCount": 35,
+        "GodCount": 519
+    },
+    {
+        "grassCount": 5047,
+        "grassEaterCount": 176,
+        "predatorCount": 8,
+        "predEaterCount": 32,
+        "GodCount": 517
+    },
+    {
+        "grassCount": 5354,
+        "grassEaterCount": 190,
+        "predatorCount": 6,
+        "predEaterCount": 30,
+        "GodCount": 521
+    },
+    {
+        "grassCount": 5683,
+        "grassEaterCount": 199,
+        "predatorCount": 6,
+        "predEaterCount": 27,
+        "GodCount": 521
+    },
+    {
+        "grassCount": 5996,
+        "grassEaterCount": 207,
+        "predatorCount": 6,
+        "predEaterCount": 29,
+        "GodCount": 525
+    },
+    {
+        "grassCount": 6249,
+        "grassEaterCount": 222,
+        "predatorCount": 6,
+        "predEaterCount": 25,
+        "GodCount": 522
+    },
+    {
+        "grassCount": 6498,
+        "grassEaterCount": 234,
+        "predatorCount": 6,
+        "predEaterCount": 28,
+        "GodCount": 521
+    },
+    {
+        "grassCount": 6732,
+        "grassEaterCount": 251,
+        "predatorCount": 6,
+        "predEaterCount": 31,
+        "GodCount": 528
+    },
+    {
+        "grassCount": 6975,
+        "grassEaterCount": 262,
+        "predatorCount": 6,
+        "predEaterCount": 27,
+        "GodCount": 528
+    },
+    {
+        "grassCount": 7132,
+        "grassEaterCount": 274,
+        "predatorCount": 6,
+        "predEaterCount": 28,
+        "GodCount": 525
+    },
+    {
+        "grassCount": 7269,
+        "grassEaterCount": 294,
+        "predatorCount": 6,
+        "predEaterCount": 40,
+        "GodCount": 525
+    },
+    {
+        "grassCount": 7394,
+        "grassEaterCount": 308,
+        "predatorCount": 6,
+        "predEaterCount": 42,
+        "GodCount": 533
+    },
+    {
+        "grassCount": 7488,
+        "grassEaterCount": 334,
+        "predatorCount": 7,
+        "predEaterCount": 37,
+        "GodCount": 537
+    },
+    {
+        "grassCount": 7576,
+        "grassEaterCount": 358,
+        "predatorCount": 6,
+        "predEaterCount": 40,
+        "GodCount": 534
+    },
+    {
+        "grassCount": 7633,
+        "grassEaterCount": 373,
+        "predatorCount": 7,
+        "predEaterCount": 42,
+        "GodCount": 535
+    },
+    {
+        "grassCount": 7668,
+        "grassEaterCount": 402,
+        "predatorCount": 6,
+        "predEaterCount": 38,
+        "GodCount": 544
+    },
+    {
+        "grassCount": 7677,
+        "grassEaterCount": 424,
+        "predatorCount": 5,
+        "predEaterCount": 42,
+        "GodCount": 495
+    },
+    {
+        "grassCount": 7003,
+        "grassEaterCount": 206,
+        "predatorCount": 807,
+        "predEaterCount": 97,
+        "GodCount": 444
+    },
+    {
+        "grassCount": 7199,
+        "grassEaterCount": 86,
+        "predatorCount": 557,
+        "predEaterCount": 85,
+        "GodCount": 423
+    },
+    {
+        "grassCount": 7897,
+        "grassEaterCount": 55,
+        "predatorCount": 422,
+        "predEaterCount": 72,
+        "GodCount": 417
+    },
+    {
+        "grassCount": 8461,
+        "grassEaterCount": 46,
+        "predatorCount": 380,
+        "predEaterCount": 66,
+        "GodCount": 399
+    },
+    {
+        "grassCount": 9110,
+        "grassEaterCount": 43,
+        "predatorCount": 366,
+        "predEaterCount": 58,
+        "GodCount": 394
+    },
+    {
+        "grassCount": 9812,
+        "grassEaterCount": 41,
+        "predatorCount": 356,
+        "predEaterCount": 56,
+        "GodCount": 389
+    },
+    {
+        "grassCount": 10452,
+        "grassEaterCount": 40,
+        "predatorCount": 351,
+        "predEaterCount": 54,
+        "GodCount": 387
+    },
+    {
+        "grassCount": 11078,
+        "grassEaterCount": 41,
+        "predatorCount": 341,
+        "predEaterCount": 55,
+        "GodCount": 386
+    },
+    {
+        "grassCount": 11714,
+        "grassEaterCount": 38,
+        "predatorCount": 336,
+        "predEaterCount": 57,
+        "GodCount": 387
+    },
+    {
+        "grassCount": 12351,
+        "grassEaterCount": 40,
+        "predatorCount": 332,
+        "predEaterCount": 56,
+        "GodCount": 387
+    },
+    {
+        "grassCount": 12957,
+        "grassEaterCount": 39,
+        "predatorCount": 319,
+        "predEaterCount": 54,
+        "GodCount": 390
+    },
+    {
+        "grassCount": 13571,
+        "grassEaterCount": 39,
+        "predatorCount": 306,
+        "predEaterCount": 58,
+        "GodCount": 403
+    },
+    {
+        "grassCount": 14177,
+        "grassEaterCount": 40,
+        "predatorCount": 296,
+        "predEaterCount": 57,
+        "GodCount": 391
+    },
+    {
+        "grassCount": 14772,
+        "grassEaterCount": 40,
+        "predatorCount": 293,
+        "predEaterCount": 53,
+        "GodCount": 389
+    },
+    {
+        "grassCount": 15364,
+        "grassEaterCount": 43,
+        "predatorCount": 290,
+        "predEaterCount": 53,
+        "GodCount": 388
+    },
+    {
+        "grassCount": 15920,
+        "grassEaterCount": 46,
+        "predatorCount": 289,
+        "predEaterCount": 53,
+        "GodCount": 387
+    },
+    {
+        "grassCount": 16472,
+        "grassEaterCount": 44,
+        "predatorCount": 288,
+        "predEaterCount": 48,
+        "GodCount": 391
+    },
+    {
+        "grassCount": 17011,
+        "grassEaterCount": 45,
+        "predatorCount": 288,
+        "predEaterCount": 57,
+        "GodCount": 390
+    },
+    {
+        "grassCount": 17546,
+        "grassEaterCount": 46,
+        "predatorCount": 288,
+        "predEaterCount": 54,
+        "GodCount": 389
+    },
+    {
+        "grassCount": 18071,
+        "grassEaterCount": 49,
+        "predatorCount": 286,
+        "predEaterCount": 62,
+        "GodCount": 388
+    },
+    {
+        "grassCount": 18583,
+        "grassEaterCount": 53,
+        "predatorCount": 286,
+        "predEaterCount": 74,
+        "GodCount": 388
+    },
+    {
+        "grassCount": 19101,
+        "grassEaterCount": 51,
+        "predatorCount": 282,
+        "predEaterCount": 74,
+        "GodCount": 391
+    },
+    {
+        "grassCount": 19621,
+        "grassEaterCount": 54,
+        "predatorCount": 262,
+        "predEaterCount": 76,
+        "GodCount": 390
+    },
+    {
+        "grassCount": 20149,
+        "grassEaterCount": 53,
+        "predatorCount": 244,
+        "predEaterCount": 80,
+        "GodCount": 392
+    },
+    {
+        "grassCount": 20680,
+        "grassEaterCount": 56,
+        "predatorCount": 235,
+        "predEaterCount": 88,
+        "GodCount": 391
+    },
+    {
+        "grassCount": 21174,
+        "grassEaterCount": 61,
+        "predatorCount": 232,
+        "predEaterCount": 86,
+        "GodCount": 396
+    },
+    {
+        "grassCount": 21651,
+        "grassEaterCount": 63,
+        "predatorCount": 228,
+        "predEaterCount": 82,
+        "GodCount": 411
+    },
+    {
+        "grassCount": 22152,
+        "grassEaterCount": 67,
+        "predatorCount": 224,
+        "predEaterCount": 73,
+        "GodCount": 414
+    },
+    {
+        "grassCount": 22597,
+        "grassEaterCount": 70,
+        "predatorCount": 221,
+        "predEaterCount": 59,
+        "GodCount": 415
+    },
+    {
+        "grassCount": 23076,
+        "grassEaterCount": 74,
+        "predatorCount": 219,
+        "predEaterCount": 55,
+        "GodCount": 420
+    },
+    {
+        "grassCount": 23519,
+        "grassEaterCount": 81,
+        "predatorCount": 216,
+        "predEaterCount": 54,
+        "GodCount": 431
+    },
+    {
+        "grassCount": 23966,
+        "grassEaterCount": 85,
+        "predatorCount": 216,
+        "predEaterCount": 53,
+        "GodCount": 427
+    },
+    {
+        "grassCount": 24362,
+        "grassEaterCount": 90,
+        "predatorCount": 216,
+        "predEaterCount": 61,
+        "GodCount": 428
+    },
+    {
+        "grassCount": 24724,
+        "grassEaterCount": 91,
+        "predatorCount": 217,
+        "predEaterCount": 60,
+        "GodCount": 442
+    },
+    {
+        "grassCount": 25115,
+        "grassEaterCount": 94,
+        "predatorCount": 216,
+        "predEaterCount": 53,
+        "GodCount": 445
+    },
+    {
+        "grassCount": 25513,
+        "grassEaterCount": 98,
+        "predatorCount": 216,
+        "predEaterCount": 56,
+        "GodCount": 427
+    },
+    {
+        "grassCount": 25919,
+        "grassEaterCount": 104,
+        "predatorCount": 215,
+        "predEaterCount": 53,
+        "GodCount": 407
+    },
+    {
+        "grassCount": 26286,
+        "grassEaterCount": 70,
+        "predatorCount": 314,
+        "predEaterCount": 46,
+        "GodCount": 394
+    },
+    {
+        "grassCount": 26703,
+        "grassEaterCount": 53,
+        "predatorCount": 272,
+        "predEaterCount": 45,
+        "GodCount": 388
+    },
+    {
+        "grassCount": 27195,
+        "grassEaterCount": 42,
+        "predatorCount": 260,
+        "predEaterCount": 38,
+        "GodCount": 376
+    },
+    {
+        "grassCount": 27691,
+        "grassEaterCount": 41,
+        "predatorCount": 251,
+        "predEaterCount": 35,
+        "GodCount": 377
+    },
+    {
+        "grassCount": 28167,
+        "grassEaterCount": 37,
+        "predatorCount": 248,
+        "predEaterCount": 28,
+        "GodCount": 384
+    },
+    {
+        "grassCount": 28637,
+        "grassEaterCount": 36,
+        "predatorCount": 246,
+        "predEaterCount": 26,
+        "GodCount": 381
+    },
+    {
+        "grassCount": 29129,
+        "grassEaterCount": 34,
+        "predatorCount": 245,
+        "predEaterCount": 28,
+        "GodCount": 382
+    },
+    {
+        "grassCount": 29613,
+        "grassEaterCount": 34,
+        "predatorCount": 237,
+        "predEaterCount": 23,
+        "GodCount": 386
+    },
+    {
+        "grassCount": 30099,
+        "grassEaterCount": 37,
+        "predatorCount": 234,
+        "predEaterCount": 23,
+        "GodCount": 386
+    },
+    {
+        "grassCount": 30581,
+        "grassEaterCount": 35,
+        "predatorCount": 229,
+        "predEaterCount": 20,
+        "GodCount": 392
+    },
+    {
+        "grassCount": 31070,
+        "grassEaterCount": 39,
+        "predatorCount": 228,
+        "predEaterCount": 15,
+        "GodCount": 388
+    },
+    {
+        "grassCount": 31536,
+        "grassEaterCount": 39,
+        "predatorCount": 228,
+        "predEaterCount": 12,
+        "GodCount": 397
+    },
+    {
+        "grassCount": 31993,
+        "grassEaterCount": 40,
+        "predatorCount": 228,
+        "predEaterCount": 12,
+        "GodCount": 387
+    },
+    {
+        "grassCount": 32460,
+        "grassEaterCount": 41,
+        "predatorCount": 190,
+        "predEaterCount": 10,
+        "GodCount": 386
+    },
+    {
+        "grassCount": 32942,
+        "grassEaterCount": 41,
+        "predatorCount": 146,
+        "predEaterCount": 13,
+        "GodCount": 381
+    },
+    {
+        "grassCount": 33389,
+        "grassEaterCount": 42,
+        "predatorCount": 122,
+        "predEaterCount": 11,
+        "GodCount": 382
+    },
+    {
+        "grassCount": 33797,
+        "grassEaterCount": 43,
+        "predatorCount": 110,
+        "predEaterCount": 10,
+        "GodCount": 381
+    },
+    {
+        "grassCount": 34179,
+        "grassEaterCount": 43,
+        "predatorCount": 101,
+        "predEaterCount": 8,
+        "GodCount": 379
+    },
+    {
+        "grassCount": 34552,
+        "grassEaterCount": 43,
+        "predatorCount": 95,
+        "predEaterCount": 9,
+        "GodCount": 379
+    },
+    {
+        "grassCount": 34912,
+        "grassEaterCount": 45,
+        "predatorCount": 93,
+        "predEaterCount": 15,
+        "GodCount": 380
+    },
+    {
+        "grassCount": 35264,
+        "grassEaterCount": 47,
+        "predatorCount": 89,
+        "predEaterCount": 18,
+        "GodCount": 379
+    },
+    {
+        "grassCount": 35611,
+        "grassEaterCount": 47,
+        "predatorCount": 87,
+        "predEaterCount": 20,
+        "GodCount": 382
+    },
+    {
+        "grassCount": 35962,
+        "grassEaterCount": 48,
+        "predatorCount": 86,
+        "predEaterCount": 22,
+        "GodCount": 380
+    },
+    {
+        "grassCount": 36302,
+        "grassEaterCount": 49,
+        "predatorCount": 85,
+        "predEaterCount": 21,
+        "GodCount": 380
+    },
+    {
+        "grassCount": 36644,
+        "grassEaterCount": 51,
+        "predatorCount": 86,
+        "predEaterCount": 22,
+        "GodCount": 382
+    },
+    {
+        "grassCount": 36976,
+        "grassEaterCount": 54,
+        "predatorCount": 86,
+        "predEaterCount": 22,
+        "GodCount": 380
+    },
+    {
+        "grassCount": 37329,
+        "grassEaterCount": 56,
+        "predatorCount": 85,
+        "predEaterCount": 23,
+        "GodCount": 362
+    },
+    {
+        "grassCount": 37656,
+        "grassEaterCount": 57,
+        "predatorCount": 84,
+        "predEaterCount": 20,
+        "GodCount": 347
+    },
+    {
+        "grassCount": 37985,
+        "grassEaterCount": 60,
+        "predatorCount": 84,
+        "predEaterCount": 30,
+        "GodCount": 337
+    },
+    {
+        "grassCount": 38326,
+        "grassEaterCount": 63,
+        "predatorCount": 83,
+        "predEaterCount": 26,
+        "GodCount": 322
+    },
+    {
+        "grassCount": 38629,
+        "grassEaterCount": 64,
+        "predatorCount": 80,
+        "predEaterCount": 22,
+        "GodCount": 306
+    },
+    {
+        "grassCount": 38949,
+        "grassEaterCount": 69,
+        "predatorCount": 80,
+        "predEaterCount": 31,
+        "GodCount": 293
+    },
+    {
+        "grassCount": 39246,
+        "grassEaterCount": 69,
+        "predatorCount": 79,
+        "predEaterCount": 34,
+        "GodCount": 282
+    },
+    {
+        "grassCount": 39524,
+        "grassEaterCount": 71,
+        "predatorCount": 79,
+        "predEaterCount": 32,
+        "GodCount": 275
+    },
+    {
+        "grassCount": 39800,
+        "grassEaterCount": 75,
+        "predatorCount": 73,
+        "predEaterCount": 41,
+        "GodCount": 268
+    },
+    {
+        "grassCount": 40076,
+        "grassEaterCount": 77,
+        "predatorCount": 60,
+        "predEaterCount": 43,
+        "GodCount": 259
+    },
+    {
+        "grassCount": 40316,
+        "grassEaterCount": 82,
+        "predatorCount": 49,
+        "predEaterCount": 37,
+        "GodCount": 244
+    },
+    {
+        "grassCount": 40537,
+        "grassEaterCount": 89,
+        "predatorCount": 40,
+        "predEaterCount": 49,
+        "GodCount": 230
+    },
+    {
+        "grassCount": 40727,
+        "grassEaterCount": 88,
+        "predatorCount": 39,
+        "predEaterCount": 53,
+        "GodCount": 222
+    },
+    {
+        "grassCount": 40890,
+        "grassEaterCount": 93,
+        "predatorCount": 32,
+        "predEaterCount": 45,
+        "GodCount": 220
+    },
+    {
+        "grassCount": 41071,
+        "grassEaterCount": 88,
+        "predatorCount": 31,
+        "predEaterCount": 49,
+        "GodCount": 220
+    },
+    {
+        "grassCount": 41210,
+        "grassEaterCount": 90,
+        "predatorCount": 28,
+        "predEaterCount": 51,
+        "GodCount": 211
+    },
+    {
+        "grassCount": 41321,
+        "grassEaterCount": 95,
+        "predatorCount": 29,
+        "predEaterCount": 47,
+        "GodCount": 213
+    },
+    {
+        "grassCount": 41436,
+        "grassEaterCount": 97,
+        "predatorCount": 27,
+        "predEaterCount": 53,
+        "GodCount": 211
+    },
+    {
+        "grassCount": 41548,
+        "grassEaterCount": 101,
+        "predatorCount": 29,
+        "predEaterCount": 51,
+        "GodCount": 219
+    },
+    {
+        "grassCount": 41648,
+        "grassEaterCount": 102,
+        "predatorCount": 27,
+        "predEaterCount": 42,
+        "GodCount": 214
+    },
+    {
+        "grassCount": 41751,
+        "grassEaterCount": 99,
+        "predatorCount": 30,
+        "predEaterCount": 40,
+        "GodCount": 220
+    },
+    {
+        "grassCount": 41833,
+        "grassEaterCount": 105,
+        "predatorCount": 26,
+        "predEaterCount": 47,
+        "GodCount": 215
+    },
+    {
+        "grassCount": 41896,
+        "grassEaterCount": 111,
+        "predatorCount": 25,
+        "predEaterCount": 45,
+        "GodCount": 214
+    },
+    {
+        "grassCount": 41998,
+        "grassEaterCount": 115,
+        "predatorCount": 26,
+        "predEaterCount": 44,
+        "GodCount": 219
+    },
+    {
+        "grassCount": 42071,
+        "grassEaterCount": 118,
+        "predatorCount": 26,
+        "predEaterCount": 42,
+        "GodCount": 223
+    },
+    {
+        "grassCount": 42146,
+        "grassEaterCount": 125,
+        "predatorCount": 21,
+        "predEaterCount": 41,
+        "GodCount": 222
+    },
+    {
+        "grassCount": 42180,
+        "grassEaterCount": 123,
+        "predatorCount": 24,
+        "predEaterCount": 45,
+        "GodCount": 226
+    },
+    {
+        "grassCount": 42189,
+        "grassEaterCount": 127,
+        "predatorCount": 23,
+        "predEaterCount": 37,
+        "GodCount": 230
+    },
+    {
+        "grassCount": 42279,
+        "grassEaterCount": 126,
+        "predatorCount": 27,
+        "predEaterCount": 33,
+        "GodCount": 231
+    },
+    {
+        "grassCount": 42352,
+        "grassEaterCount": 122,
+        "predatorCount": 28,
+        "predEaterCount": 35,
+        "GodCount": 230
+    },
+    {
+        "grassCount": 42417,
+        "grassEaterCount": 117,
+        "predatorCount": 30,
+        "predEaterCount": 36,
+        "GodCount": 238
+    },
+    {
+        "grassCount": 42498,
+        "grassEaterCount": 108,
+        "predatorCount": 34,
+        "predEaterCount": 36,
+        "GodCount": 243
+    },
+    {
+        "grassCount": 42637,
+        "grassEaterCount": 99,
+        "predatorCount": 32,
+        "predEaterCount": 37,
+        "GodCount": 242
+    },
+    {
+        "grassCount": 42581,
+        "grassEaterCount": 49,
+        "predatorCount": 183,
+        "predEaterCount": 44,
+        "GodCount": 244
+    },
+    {
+        "grassCount": 42768,
+        "grassEaterCount": 27,
+        "predatorCount": 118,
+        "predEaterCount": 36,
+        "GodCount": 260
+    },
+    {
+        "grassCount": 43036,
+        "grassEaterCount": 22,
+        "predatorCount": 87,
+        "predEaterCount": 24,
+        "GodCount": 256
+    },
+    {
+        "grassCount": 43294,
+        "grassEaterCount": 21,
+        "predatorCount": 75,
+        "predEaterCount": 20,
+        "GodCount": 250
+    },
+    {
+        "grassCount": 43532,
+        "grassEaterCount": 19,
+        "predatorCount": 71,
+        "predEaterCount": 18,
+        "GodCount": 247
+    },
+    {
+        "grassCount": 43795,
+        "grassEaterCount": 18,
+        "predatorCount": 71,
+        "predEaterCount": 14,
+        "GodCount": 244
+    },
+    {
+        "grassCount": 44066,
+        "grassEaterCount": 19,
+        "predatorCount": 71,
+        "predEaterCount": 12,
+        "GodCount": 239
+    },
+    {
+        "grassCount": 44310,
+        "grassEaterCount": 17,
+        "predatorCount": 71,
+        "predEaterCount": 9,
+        "GodCount": 236
+    },
+    {
+        "grassCount": 44593,
+        "grassEaterCount": 12,
+        "predatorCount": 72,
+        "predEaterCount": 7,
+        "GodCount": 234
+    },
+    {
+        "grassCount": 44873,
+        "grassEaterCount": 11,
+        "predatorCount": 70,
+        "predEaterCount": 8,
+        "GodCount": 229
+    },
+    {
+        "grassCount": 45149,
+        "grassEaterCount": 11,
+        "predatorCount": 70,
+        "predEaterCount": 7,
+        "GodCount": 226
+    },
+    {
+        "grassCount": 45425,
+        "grassEaterCount": 10,
+        "predatorCount": 69,
+        "predEaterCount": 7,
+        "GodCount": 218
+    },
+    {
+        "grassCount": 45696,
+        "grassEaterCount": 10,
+        "predatorCount": 70,
+        "predEaterCount": 6,
+        "GodCount": 216
+    },
+    {
+        "grassCount": 45962,
+        "grassEaterCount": 11,
+        "predatorCount": 68,
+        "predEaterCount": 6,
+        "GodCount": 205
+    },
+    {
+        "grassCount": 46228,
+        "grassEaterCount": 11,
+        "predatorCount": 67,
+        "predEaterCount": 5,
+        "GodCount": 197
+    },
+    {
+        "grassCount": 46483,
+        "grassEaterCount": 11,
+        "predatorCount": 65,
+        "predEaterCount": 7,
+        "GodCount": 192
+    },
+    {
+        "grassCount": 46727,
+        "grassEaterCount": 11,
+        "predatorCount": 65,
+        "predEaterCount": 5,
+        "GodCount": 188
+    },
+    {
+        "grassCount": 46965,
+        "grassEaterCount": 11,
+        "predatorCount": 62,
+        "predEaterCount": 6,
+        "GodCount": 187
+    },
+    {
+        "grassCount": 47198,
+        "grassEaterCount": 11,
+        "predatorCount": 62,
+        "predEaterCount": 5,
+        "GodCount": 182
+    },
+    {
+        "grassCount": 47440,
+        "grassEaterCount": 10,
+        "predatorCount": 62,
+        "predEaterCount": 4,
+        "GodCount": 178
+    },
+    {
+        "grassCount": 47674,
+        "grassEaterCount": 9,
+        "predatorCount": 62,
+        "predEaterCount": 5,
+        "GodCount": 178
+    },
+    {
+        "grassCount": 47901,
+        "grassEaterCount": 9,
+        "predatorCount": 60,
+        "predEaterCount": 4,
+        "GodCount": 177
+    },
+    {
+        "grassCount": 48125,
+        "grassEaterCount": 10,
+        "predatorCount": 57,
+        "predEaterCount": 7,
+        "GodCount": 176
+    },
+    {
+        "grassCount": 48345,
+        "grassEaterCount": 9,
+        "predatorCount": 54,
+        "predEaterCount": 7,
+        "GodCount": 174
+    },
+    {
+        "grassCount": 48555,
+        "grassEaterCount": 9,
+        "predatorCount": 52,
+        "predEaterCount": 6,
+        "GodCount": 172
+    },
+    {
+        "grassCount": 48769,
+        "grassEaterCount": 9,
+        "predatorCount": 50,
+        "predEaterCount": 6,
+        "GodCount": 170
+    },
+    {
+        "grassCount": 48975,
+        "grassEaterCount": 9,
+        "predatorCount": 50,
+        "predEaterCount": 7,
+        "GodCount": 169
+    },
+    {
+        "grassCount": 49185,
+        "grassEaterCount": 9,
+        "predatorCount": 50,
+        "predEaterCount": 7,
+        "GodCount": 168
+    },
+    {
+        "grassCount": 49384,
+        "grassEaterCount": 9,
+        "predatorCount": 49,
+        "predEaterCount": 7,
+        "GodCount": 167
+    },
+    {
+        "grassCount": 49582,
+        "grassEaterCount": 8,
+        "predatorCount": 48,
+        "predEaterCount": 7,
+        "GodCount": 165
+    },
+    {
+        "grassCount": 49777,
+        "grassEaterCount": 7,
+        "predatorCount": 48,
+        "predEaterCount": 7,
+        "GodCount": 165
+    },
+    {
+        "grassCount": 49981,
+        "grassEaterCount": 6,
+        "predatorCount": 48,
+        "predEaterCount": 7,
+        "GodCount": 164
+    },
+    {
+        "grassCount": 50185,
+        "grassEaterCount": 6,
+        "predatorCount": 47,
+        "predEaterCount": 7,
+        "GodCount": 163
+    },
+    {
+        "grassCount": 50385,
+        "grassEaterCount": 6,
+        "predatorCount": 46,
+        "predEaterCount": 6,
+        "GodCount": 162
+    },
+    {
+        "grassCount": 50585,
+        "grassEaterCount": 6,
+        "predatorCount": 45,
+        "predEaterCount": 6,
+        "GodCount": 162
+    },
+    {
+        "grassCount": 50779,
+        "grassEaterCount": 6,
+        "predatorCount": 44,
+        "predEaterCount": 5,
+        "GodCount": 160
+    },
+    {
+        "grassCount": 50972,
+        "grassEaterCount": 6,
+        "predatorCount": 42,
+        "predEaterCount": 5,
+        "GodCount": 160
+    },
+    {
+        "grassCount": 51148,
+        "grassEaterCount": 6,
+        "predatorCount": 42,
+        "predEaterCount": 4,
+        "GodCount": 158
+    },
+    {
+        "grassCount": 51322,
+        "grassEaterCount": 6,
+        "predatorCount": 42,
+        "predEaterCount": 4,
+        "GodCount": 152
+    },
+    {
+        "grassCount": 51485,
+        "grassEaterCount": 6,
+        "predatorCount": 42,
+        "predEaterCount": 4,
+        "GodCount": 149
+    },
+    {
+        "grassCount": 51655,
+        "grassEaterCount": 7,
+        "predatorCount": 42,
+        "predEaterCount": 4,
+        "GodCount": 145
+    },
+    {
+        "grassCount": 51829,
+        "grassEaterCount": 7,
+        "predatorCount": 40,
+        "predEaterCount": 4,
+        "GodCount": 142
+    },
+    {
+        "grassCount": 51991,
+        "grassEaterCount": 7,
+        "predatorCount": 38,
+        "predEaterCount": 4,
+        "GodCount": 134
+    },
+    {
+        "grassCount": 52155,
+        "grassEaterCount": 7,
+        "predatorCount": 37,
+        "predEaterCount": 6,
+        "GodCount": 129
+    },
+    {
+        "grassCount": 52303,
+        "grassEaterCount": 7,
+        "predatorCount": 37,
+        "predEaterCount": 5,
+        "GodCount": 127
+    },
+    {
+        "grassCount": 52445,
+        "grassEaterCount": 7,
+        "predatorCount": 37,
+        "predEaterCount": 5,
+        "GodCount": 123
     }
 ]

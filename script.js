@@ -165,6 +165,8 @@ function drawMatrix(data) {
     matrix = data.matrix;
 
 }
-function someEvent() {
 
+function someEvent() {
+    socket.emit('someEvent');
 }
+

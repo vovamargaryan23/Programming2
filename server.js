@@ -30,10 +30,7 @@ server.listen(3000);
 io.on('connection', function (socket) {
 	console.log('a user connected');
 
-	socket.on('someEvent', function () {
-		console.log('some event happened on server');
-	});
-
+	socket.on('someEvent', mutation);
 });
 
 getRandomInt = function (min, max) {
@@ -74,6 +71,20 @@ function start() {
 			}
 		}
 	}
+}
+
+function mutation() {
+	for (let y = 0; y < matrix.length; y++) {
+		for (let x = 0; x < matrix[y].length; x++) {
+			if (matrix[y][x] == 2) {
+				let predator = new Predator(x, y);
+				let grassEater = new GrassEater(x, y);
+				predatorArr.push(predator);
+				grassEaterArr.push(grassEater);
+			}
+		}
+	}
+
 }
 
 function game() {

@@ -2,7 +2,7 @@ var LivingCreature = require("./LivingCreature");
 module.exports = class GrassEater extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
-        this.energy = 30;
+        this.energy = 35;
     }
     chooseCell(char) {
         let arr = [];
