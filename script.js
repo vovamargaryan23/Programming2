@@ -134,3 +134,6 @@ function drawMatrix(data) {
     console.log(matrix);
 
 }
+function someEvent() {
+    socket.emit('someEvent');
+}

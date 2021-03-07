@@ -23,6 +23,10 @@ server.listen(3000);
 io.on('connection', function (socket) {
 	console.log('a user connected');
 
+	socket.on('someEvent', function () {
+		console.log('some event happened on server');
+	});
+
 });
 
 getRandomInt = function (min, max) {
