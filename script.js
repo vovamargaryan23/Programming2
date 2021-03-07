@@ -123,14 +123,46 @@ var numberOfSides = 20;
 
 var socket = io();
 
-function setup() {
+socket.on('matrixUpdate', drawMatrix);
+
+function start() {
     createCanvas(numberOfSides * sideLength, numberOfSides * sideLength);
-    background('#acacac');
+    background('grey');
+    frameRate(8);
+    noStroke();
 }
+
+function draw() {
+    for (let y = 0; y < matrix.length; y++) {
+        const element = matrix[y];
+        for (let x = 0; x < element.length; x++) {
+
+            if (matrix[y][x] == 1) {
+                fill('green')
+            }
+            else if (matrix[y][x] == 2) {
+                fill('orange')
+            }
+            else if (matrix[y][x] == 3) {
+                fill('red')
+            }
+            else if (matrix[y][x] == 4) {
+                fill('blue')
+            }
+            else if (matrix[y][x] == 5) {
+                fill('black')
+            }
+            else {
+                fill('grey')
+            }
+            rect(x * side, y * side, side, side)
+        }
+    }
+}
+
 
 function drawMatrix(data) {
     var matrix = data.matrix;
-
     console.log(matrix);
 
 }
