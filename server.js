@@ -9,7 +9,7 @@ var Predator = require("./classes/Predator");
 var PredEater = require("./classes/PredEater");
 var God = require("./classes/God");
 
-let weather = 'winter';
+var weather = 'spring';
 var stats = [];
 
 matrix = [];
@@ -44,6 +44,7 @@ getRandomArrayElement = function (arr) {
 	let randomElement = arr[randomIndex];
 	return randomElement;
 }
+
 
 function start() {
 	matrixGenerator(70, 1000, 700, 1000, 1200, 100);
@@ -87,11 +88,13 @@ function mutation() {
 
 }
 
+
+
 function game() {
 	update();
 	var data = {
 		'matrix': matrix,
-		'weater': weather
+		'weather': weather
 	};
 	io.sockets.emit('matrixUpdate', data);
 

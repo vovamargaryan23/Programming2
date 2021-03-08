@@ -39,6 +39,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Գույն</th>
                 <th scope="col">Նկարագրություն</th>
+                <th scope="col">Եղանակի ազդեցություն</th>
             </tr>
         </thead>
         <tbody>
@@ -46,6 +47,8 @@
                 <th scope="row">1</th>
                 <td scope="row" style="background-color:green;"></td>
                 <td>Կանաչը խոտն է, որը բազմանում է 3 ցիկլը մեկ,մահանում է երբ նրան ուտում է խոտակերը:</td>
+                <td>երբ եղանակը գարուն և ամառ է, խոտի գույնը կանաչ է, աշնան ժամանակ խոտի գույնը նարնջագույն է իսկ ձմռան
+                    ժամանակ խոտի գույնը սպիտակ է</td>
             </tr>
             <tr>
                 <th scope="row">2</th>
@@ -71,9 +74,11 @@
                 <td>Սևը Վիշապն է, որը բազմանում է 4 հատ գիշատիչ կամ հրեշ ուտելուց հետո և մահանում է 4 հատ չուտելուց
                     հետո: </td>
             </tr>
+            <tr>
+            </tr>
         </tbody>
     </table>
-
+    <p id='weather'></p>
     <button onclick="someEvent()">Որոշ խոտակերների Վերափոխել գիշատիչ</button>
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
