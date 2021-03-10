@@ -9,7 +9,6 @@ var Predator = require("./classes/Predator");
 var PredEater = require("./classes/PredEater");
 var God = require("./classes/God");
 
-var weather = 'spring';
 var stats = [];
 
 matrix = [];
@@ -24,6 +23,7 @@ app.use(express.static("."));
 app.get('/', function (req, res) {
 	res.redirect('index.html');
 });
+
 
 server.listen(3000);
 
@@ -89,12 +89,10 @@ function mutation() {
 }
 
 
-
 function game() {
 	update();
 	var data = {
 		'matrix': matrix,
-		'weather': weather
 	};
 	io.sockets.emit('matrixUpdate', data);
 
@@ -103,7 +101,7 @@ function game() {
 
 function update() {
 	for (let index = 0; index < grassArr.length; index++) {
-		grassArr[index].mul();
+		grassArr[index].mul(2);
 	}
 	for (let index = 0; index < grassEaterArr.length; index++) {
 		grassEaterArr[index].eat();
@@ -162,6 +160,7 @@ function saveStats() {
 		'predEaterCount': predEaterArr.length,
 		'GodCount': godArr.length
 	};
+	io.sockets.emit('statsFunc', stats);
 
 	stats.push(statsObject);
 	fs.writeFileSync(fileName, JSON.stringify(stats, null, 4));

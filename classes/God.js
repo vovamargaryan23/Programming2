@@ -19,12 +19,15 @@ module.exports = class God extends LivingCreature {
         ];
     }
     mul() {
-        let newCell = getRandomArrayElement(this.chooseCell(0));
+        var emptyCells = this.chooseCell(0);
+        var newCell = getRandomArrayElement(emptyCells);
+
         if (newCell) {
-            let x = newCell[0];
-            let y = newCell[1];
-            matrix[y][x] = 4;
-            let god = new God(x, y);
+            var x = newCell[0];
+            var y = newCell[1];
+            matrix[y][x] = this.index;
+
+            var god = new God(x, y, this.index);
             godArr.push(god);
             this.energy = 0;
         }

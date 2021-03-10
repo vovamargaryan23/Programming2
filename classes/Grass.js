@@ -4,8 +4,8 @@ module.exports = class Grass extends LivingCreature {
         super(x, y, index);
         this.life = 0;
     }
-    mul() {
-        this.life++;
+    mul(x) {
+        this.life += x;
         let newCell = getRandomArrayElement(this.chooseCell(0));
         if (newCell && this.life > 3) {
             let x = newCell[0];
