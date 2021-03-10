@@ -51,23 +51,23 @@ function start() {
 	for (let y = 0; y < matrix.length; y++) {
 		for (let x = 0; x < matrix[y].length; x++) {
 			if (matrix[y][x] == 1) {
-				let grass = new Grass(x, y, 1);
+				let grass = new Grass(x, y);
 				grassArr.push(grass);
 			}
 			else if (matrix[y][x] == 2) {
-				let grassEater = new GrassEater(x, y, 2);
+				let grassEater = new GrassEater(x, y);
 				grassEaterArr.push(grassEater);
 			}
 			else if (matrix[y][x] == 3) {
-				let predator = new Predator(x, y, 3);
+				let predator = new Predator(x, y);
 				predatorArr.push(predator);
 			}
 			else if (matrix[y][x] == 4) {
-				let predeater = new PredEater(x, y, 4);
+				let predeater = new PredEater(x, y);
 				predEaterArr.push(predeater);
 			}
 			else if (matrix[y][x] == 5) {
-				let god = new God(x, y, 5);
+				let god = new God(x, y);
 				godArr.push(god);
 			}
 		}
@@ -78,8 +78,8 @@ function mutation() {
 	for (let y = 0; y < matrix.length; y++) {
 		for (let x = 0; x < matrix[y].length; x++) {
 			if (matrix[y][x] == 2) {
-				let predator = new Predator(x, y, 3);
-				let grassEater = new GrassEater(x, y, 2);
+				let predator = new Predator(x, y);
+				let grassEater = new GrassEater(x, y);
 				predatorArr.push(predator);
 				grassEaterArr.push(grassEater);
 			}
